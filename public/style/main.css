@@ -1,0 +1,53 @@
+.copy{    
+	    box-shadow: black 8px -4px 56px -7px;
+	color: black;
+    background-color: silver;
+    padding: 1px;
+    text-align: center;
+    width: 102%;
+    font-family: fantasy;
+    font-size: 14px;
+        bottom: 0px;
+ 
+}
+.logoText{
+	  top: -16px;
+    position: absolute;
+    left: 57px;
+    font-size: 1.6em;
+    font-family: fantasy;
+    COLOR: white;
+
+}
+footer{
+color: ghostwhite;
+    padding: 1px;
+    background: darkgray;
+    bottom: 0px;
+    position: absolute;
+    width: 102%;
+    margin-left: -2%;
+    font-family: fantasy;
+}
+.logo{
+	z-index:50;
+	height:50px;
+	position: absolute;
+	top:1;
+	left: 1;
+}
+header{    
+	    box-shadow: 2px 1px 27px;
+	background-color: black;
+    height: 53px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;}
+ .foot{
+
+  	display: inline;
+    padding: 3%;
+    line-height: 2.2;
+  
+  }

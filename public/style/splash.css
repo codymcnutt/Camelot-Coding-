@@ -1,0 +1,53 @@
+html{
+background: black; 
+}
+
+img{
+position: absolute;
+    left: 50vh;
+    height: 80vh;
+    top: 16px;
+    -webkit-animation-duration: 200s;
+    animation-duration: 200s;
+ }
+.castle{
+ z-index:2;
+ }
+
+ .sun{    left: 86vh;
+    top: 32vh;
+    height: 7vh;
+    }
+
+ .princess{ 
+    height: 34px;
+    left: 75vh;
+    top: 55vh;
+}
+.pen1{
+	height: 44px;
+    left: 66vh;
+    top: 49vh;
+}
+.pen{     
+
+       height: 56px;
+    left: 104vh;
+    top: 45vh;
+    }
+ p{
+    z-index: 3;
+    position: absolute;
+    left: 62vh;
+    top: 20vh;
+    color: white;
+    font-family: fantasy;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+  text-shadow:black 9px 6px 7px;
+}
+
+
+<!-- linear-gradient(to top, rgba(0,153,230, 1), rgba(153, 221, 255,.2 ));
+ -->
