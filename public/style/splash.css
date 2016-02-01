@@ -13,7 +13,15 @@ position: absolute;
 .castle{
  z-index:2;
  }
+a{    left: 700px;
+    font-family: fantasy;
+   font-size: 3em;
+   position: fixed;
+   left: 45%;
+   top:82%;
+    color:white;
 
+}
  .sun{    left: 86vh;
     top: 32vh;
     height: 7vh;
@@ -35,6 +43,7 @@ position: absolute;
     left: 104vh;
     top: 45vh;
     }
+    
  p{
     z-index: 3;
     position: absolute;
@@ -47,7 +56,3 @@ position: absolute;
     text-align: center;
   text-shadow:black 9px 6px 7px;
 }
-
-
-<!-- linear-gradient(to top, rgba(0,153,230, 1), rgba(153, 221, 255,.2 ));
- -->

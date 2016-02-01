@@ -19,12 +19,85 @@
     COLOR: white;
 
 }
+.hand  { position: fixed;
+    top: -27px;
+    width: 100vw;
+    left: 0%;
+    z-index: -1;
+}
+.precision{    font-family: fantasy;
+    font-size: 109px;
+    z-index: -3;
+    position: fixed;
+    color: black;
+    top: -10px;
+    left: 40px;
+}
+.precision2{
+      left: 700px;
+    z-index: -3;
+    top: 175px;
+
+}
+a {color: black;
+}
+.topMenu{
+      font-family: fantasy;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    padding: 6px;
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+    left: 23%;
+    z-index: 2;
+    color: black;
+    top: -3px;
+    padding-top: 10px;
+    background-color: ghostwhite;
+    outline: none;
+    }
+button:hover{
+    background-color:black;
+    color:white;
+    box-shadow:silver 0px 1px 24px;
+     animation: pulse 1s;     
+}
+.team{
+        left: 23.5%;
+    position: relative;
+}
+.tagline{
+    background-color: black;
+    color:white;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin: 0%;
+    padding-bottom: 10%;
+    padding-top: 18%;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 0 1px 3px #000 inset;
+}
+
+.tech{
+        position: fixed;
+    top: 29px;
+    width: 100vw;
+    left: 0%;
+    height: 101%;
+    z-index: -3;
+}
 footer{
 color: ghostwhite;
     padding: 1px;
     background: darkgray;
     bottom: 0px;
-    position: absolute;
+    position: fixed;
     width: 102%;
     margin-left: -2%;
     font-family: fantasy;
@@ -45,9 +118,7 @@ header{
     width: 100%;
     position: fixed;}
  .foot{
-
   	display: inline;
     padding: 3%;
     line-height: 2.2;
-  
   }
