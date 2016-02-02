@@ -61,12 +61,27 @@ button:hover{
     background-color:black;
     color:white;
     box-shadow:silver 0px 1px 24px;
-     animation: pulse 1s;     
+
+       animation: pulse 1s; 
+     cursor:pointer; 
 }
+.activePage{
+    background-color:black;
+    color:white;
+    box-shadow:silver 0px 1px 24px;"
+}
+
 .team{
-        left: 23.5%;
-    position: relative;
+        left: 24%;
+ 
 }
+.aboutButton{
+    left:25%;
+}
+.contactButton{
+    left:26%;
+}
+
 .tagline{
     background-color: black;
     color:white;
