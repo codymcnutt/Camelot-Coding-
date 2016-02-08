@@ -4,6 +4,8 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var controller = require('./controllers/controller.js');
 mongoose.connect('mongodb://localhost/camelot');
+// mongoose.connect('mongodb://localhost/Christmas');
+
 
 // Auth Requires
 // var session = require('express-session');
@@ -19,7 +21,7 @@ app.use(express.static(__dirname + '/public'));
 
 // Routes \\
 // var controller = require('./controllers/controller')
-
+// This is for the main site
 app.get('/', function(req, res){
   res.sendFile("/html/splash.html", {root : './public'})
 
@@ -41,8 +43,20 @@ app.get('/team', function(req, res){
   res.sendFile("/html/team.html", {root : './public'})
 });
 app.get('/terms', function(req, res){
-  res.sendFile("/html/team.html", {root : './public'})
+  res.sendFile("/html/terms.html", {root : './public'})
 });
+
+
+// This is for the wishes demo
+app.get('/winterwishes', function(req, res){
+  res.sendFile("/html/wishes.html", {root : './public'})
+});
+app.post('/api/savedWishes', controller.createWish)
+
+app.get('/api/getWishes', controller.getWishes)
+
+
+
 
 
 

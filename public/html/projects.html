@@ -29,10 +29,10 @@
 		<div> 
 				<input type="image" ng-click="wishDemo = !wishDemo" class="projectImg"src="../images/winter.png"> </input>
 					<div>	
-						<button ng-show="wishDemo"ng-click="wishDemo = !wishDemo"> Close Demo</button>
+						<button class= "closer" ng-show="wishDemo"ng-click="wishDemo = !wishDemo"> Close Demo</button>
 								<iframe  ng-if="wishDemo"
-									 src="/wish"
-									 width="100%" height="500"
+									 src="/winterwishes"
+									 width="100%" height="100%"
 									 >
 									  <p>
 									    <a href="https://developer.mozilla.org/en-US/docs/Glossary">
@@ -91,7 +91,7 @@
 		</footer>
 
 	<script src="../javascript/main.js"></script>
-    <script type="text/javascript" src="../javascript/scrollr.js"></script>
+   <script type="text/javascript" src="../javascript/scrollr.js"></script>
     <script type="text/javascript">
     var s = skrollr.init();
     </script>
