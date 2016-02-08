@@ -7,34 +7,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-    <title>Camelot Code</title>
+    <title>About Us</title>
 
     <link rel="stylesheet" href="../style/main.css">
      <link rel="stylesheet" href="../style/animate.css">
   </head>
-   <body ng-controller="camelotController">
+<body ng-controller="camelotController">
     <header>
       <div>
-         <img href="link.home.html"class="animated fadeInDown logo" src="../images/ring.png">
-                 <a href="home.html"><img class="animated fadeInUp logo" style="z-index:50;" src="../images/castle.png"></a>
-                 <a href="projects.html"><button class="topMenu animated"> Projects </button></a>
-                 <a href="team.html"><button class="topMenu team"> Team </button></a>
-           <a href="about.html"><button class="topMenu activePage aboutButton"> About Us </button></a>
-           <a href="contact.html"><button class="topMenu contactButton"> Contact Us </button></a>
+         <img href="/home"class="animated fadeInDown logo" src="../images/ring.png">
+                 <a href="/home"><img class="animated fadeInUp logo" style="z-index:50;" src="../images/castle.png"></a>
+                 <a href="/projects"><button class="topMenu animated"> Projects </button></a>
+                 <a href="/team"><button class="topMenu team"> Team </button></a>
+           <a href="/about"><button class="topMenu aboutButton"> About Us </button></a>
+           <a href="/contact"><button class="topMenu contactButton"> Contact Us </button></a>
       </div>
       <div><p class="logoText">Camelot Coding</p></div>
     </header>
 
       <!-- MAIN PAGE GOES HERE -->
-
+    <div>
+         <p class="aboutText">Started in 2015 in Denver Colorado Camelot Code is an up and coming development shop. Started by Cody McNutt Camelot Coding manages a network of web properties, apps and services used by millions of people around the world. We specialize in designing and creating clean, modern applications designed to help your product or sercvice better on the Web. <br><br> Camelot Coding also provides a range of development, design, and consultation services for clients, with a experience in Fortune 100 environments we understand business.  If you would like to see how we can help you build or grow your online presence, send us a message.</p>
+  </div>
+  <hr style="    top: 40px; position: relative;">
+  <div class="codyTxt">
+        <img class="codyImg"src="../images/cody.jpg">
+        <p> Cody McNutt <br>CEO/Founder</p> 
+        <p>Cody graduated DU Business School in 2010. Shortly afterword he worked for a startup in Denver for several years as product manager. Developing products which won multiple awards. Cody then moved out of state and started working for a Fortune 100 company. During his time in corporate America Cody work as an analyst and performed various audit functions. In 2015 Cody moved back to Denver and started Camelot Coding to persue his pasion in design and development. </p>
+  </div>
 
 
 <!-- FOOTER BEGINS HERE -->
     <footer class="footer">
-      <a href="about.html" class="foot">About Us</a>
-      <a href="contact.html"class="foot"> Contact Us</a>
-      <a href="terms.html" class="foot"> Terms of Service</a>
+      <a href="/about" class="foot">About Us</a>
+      <a href="/contact"class="foot"> Contact Us</a>
+      <a href="/terms" class="foot"> Terms of Service</a>
       <div class="copy">
         <p class="copyText"> Copyright 2016 Camelot Coding All Rights Reserved </p>
       </div>
     </footer>
+    <script src="../javascript/main.js"></script>
+    <script type="text/javascript" src="../javascript/scrollr.js"></script>
+    <script type="text/javascript">
+    var s = skrollr.init();
+    </script>
+</body>
+</html>

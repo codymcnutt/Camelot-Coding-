@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-    <title>Camelot Code</title>
+    <title>Projects</title>
 
     <link rel="stylesheet" href="../style/main.css">
      <link rel="stylesheet" href="../style/animate.css">
@@ -15,26 +15,85 @@
    <body ng-controller="camelotController">
 		<header>
 			<div>
-				 <img href="link.home.html"class="animated fadeInDown logo" src="../images/ring.png">
-                 <a href="home.html"><img class="animated fadeInUp logo" style="z-index:50;" src="../images/castle.png"></a>
-                 <button class="topMenu activePage animated"> Projects </button>
-                 <a href="team.html"><button class="topMenu team"> Team </button></a>
-    			 <a href="about.html"><button class="topMenu aboutButton"> About Us </button></a>
-    			 <a href="contact.html"><button class="topMenu contactButton"> Contact Us </button></a>
+				 <img href="/home"class="animated fadeInDown logo" src="../images/ring.png">
+                 <a href="/home"><img class="animated fadeInUp logo" style="z-index:50;" src="../images/castle.png"></a>
+                 <a href="/projects"><button class="topMenu animated"> Projects </button></a>
+                 <a href="/team"><button class="topMenu team"> Team </button></a>
+    			 <a href="/about"><button class="topMenu aboutButton"> About Us </button></a>
+    			 <a href="/contact"><button class="topMenu contactButton"> Contact Us </button></a>
 			</div>
 			<div><p class="logoText">Camelot Coding</p></div>
 		</header>
 
 		  <!-- MAIN PAGE GOES HERE -->
+		<div> 
+				<input type="image" ng-click="wishDemo = !wishDemo" class="projectImg"src="../images/winter.png"> </input>
+					<div>	
+						<button ng-show="wishDemo"ng-click="wishDemo = !wishDemo"> Close Demo</button>
+								<iframe  ng-if="wishDemo"
+									 src="/wish"
+									 width="100%" height="500"
+									 >
+									  <p>
+									    <a href="https://developer.mozilla.org/en-US/docs/Glossary">
+									      Your web browser does not support this feature
+									    </a>
+									  </p>
+								</iframe>
 
+						</div>
+					<p class="projectText winterText">Winter Wishes: SPA (Single Page Application) which allows real time wishes to be displayed globally.</p>
+		
+		</div>
+		
+		<div>
+		<img class="projectImg solar" src="../images/solar.png">
+			 <p class="projectText solarText">Solar System: A Three.JS application rendering the solar system (to scale) in 3D. We added Space Oddity for fun</p>
+			
+		</div>
 
+		<div>
+			<img class="projectImg umbrellaImg" src="../images/umbrella.png">
+			 <p class="projectText umbrellaText">Red Umbrella Media: A small marketing firm wanted to rebrand their site, so we helped them out by removing color</p>
+			
+		</div>
+		<div>
+			<input class="projectImg wizardImg" ng-click="wizardDemo = !wizardDemo" type="image" src="../images/textgame.png">
+</div>
+				<div >	
+				<button class="closer"ng-show="wizardDemo"ng-click="wizardDemo = !wizardDemo"> Close Demo</button>
+						<iframe 
+							 ng-if="wizardDemo"
+							 src="http://45.55.191.120:3000/"
+							 width="100%" height="100%"
+							 
+													 >
+							  <p>
+							    <a href="https://developer.mozilla.org/en-US/docs/Glossary">
+							      Your web browser does not support this feature
+							    </a>
+							  </p>
+						</iframe>
+
+				</div>
+			 <p class="projectText wizardText">This is a text based game called Lives of Wizards. It uses a parallax.js engine for the splash page and facebook authentication for the login</p>
+			
+	<p class="projectTextDemo"> These are some of our recent projects. <br> See live demos by clicking on the image <br> Demos make take a moment to load</p>
 
 <!-- FOOTER BEGINS HERE -->
 <footer class="footer">
-			<a href="about.html" class="foot">About Us</a>
-			<a href="contact.html"class="foot"> Contact Us</a>
-			<a href="terms.html" class="foot"> Terms of Service</a>
+			<a href="/about" class="foot">About Us</a>
+			<a href="/contact"class="foot"> Contact Us</a>
+			<a href="/terms" class="foot"> Terms of Service</a>
 			<div class="copy">
 				<p class="copyText"> Copyright 2016 Camelot Coding All Rights Reserved </p>
 			</div>
 		</footer>
+
+	<script src="../javascript/main.js"></script>
+    <script type="text/javascript" src="../javascript/scrollr.js"></script>
+    <script type="text/javascript">
+    var s = skrollr.init();
+    </script>
+</body>
+</html>

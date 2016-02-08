@@ -93,7 +93,7 @@ button:hover{
     left: 0%;
     margin: 0%;
     padding-bottom: 10%;
-    padding-top: 18%;
+    padding-top: 15%;
     text-align: center;
     width: 100%;
     box-shadow: 0 0 1px 3px #000 inset;
@@ -132,8 +132,116 @@ header{
     left: 0;
     width: 100%;
     position: fixed;}
+ 
  .foot{
   	display: inline;
-    padding: 3%;
+    margin-left: 2%;
     line-height: 2.2;
   }
+
+  .projectImg{
+    z-index: 0;
+            width: 26%;
+    float: left;
+    margin-right: -27px;
+    margin-top: 68px;
+    box-shadow: black 4px 4px 21px;
+    position: fixed;
+    margin-left: 5px;
+    border-radius: 9px;
+  }
+
+  .projectImg:hover{
+    
+    opacity:.2;
+    border-style: dotted;
+    border-width: 2px;
+  }
+
+  .projectText{
+        position: fixed;
+    overflow-wrap: normal;
+    font-size: 24px;
+    font-family: fantasy;
+    z-index:-3;
+     width: 20%;
+  }
+  .solar{
+        top: 69px;
+
+    left: 349px;
+  }
+    .solarText{
+   
+    left: 28%;
+    top: 133px;
+  }
+  .winterText{    
+    top: 125px;
+    left: 52px;
+}
+.umbrellaImg{
+        top: 125px;
+        left:693px;
+}
+.umbrellaText{
+        left: 757px;
+    top: 223px;
+}
+.wizardImg{
+        top: 183px;
+        left: 1050px;
+}
+.wizardText{
+      left: 1098px;
+    top: 243px;
+    width: 23%;
+}
+iframe{position: absolute; 
+        z-index: 20;
+        top: 50px;
+        left: 0px;;
+        z-index: 20;
+    }
+.closer{
+        z-index: 21;
+    position: absolute;
+    height: 55px;
+    color: red;
+    font-size: 19px;
+    border-radius: 7px;
+    top: 60px;
+    left: 91%;
+    background-color: ghostwhite;
+    border: solid 2px black;
+    }
+.projectTextDemo{
+    top: 60%;
+    font-size: 30px;
+    font-family: fantasy;
+    position: absolute;
+    margin-left:5px;
+
+}
+.codyImg{
+        float: left;
+    border-radius: 10px;
+    box-shadow: silver 8px 9px 10px;
+    position: relative;
+    margin-right:30px;
+    margin-left:10px;
+}
+.codyTxt{ position: relative;
+    top: 37px;
+    font-size: 17px;
+    padding: 10px 75px 7px 30px;
+}
+.aboutText{
+     font-family: fantasy;
+    top: 75px;
+    font-size:18px;
+    text-align: center;
+    position: relative;
+    padding: 0px 70px 40px 70px;
+}
+

@@ -5,4 +5,16 @@ angular.module('camelotApp')
 
 
 
+
+
+  $scope.wizardDemo = false;
+
+  // Toggles the button
+  $scope.wizardDemoToggle = function() {
+
+    $scope.wizardDemo = !$scope.wizardDemo;
+
+  };
+
+
 	}])
