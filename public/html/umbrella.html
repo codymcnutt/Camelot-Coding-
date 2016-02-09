@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="umbrellaApp" class="background">
+  <head>
+    <meta charset="utf-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+  <meta name="apple-mobile-web-app-capable" content="no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+    <title>Red Umbrella</title>
+    
+    
+    <link rel="stylesheet" href="../style/umbrella.css">
+   <link rel="stylesheet" href="../style/animate.css">
+  </head>
+
+
+  <body ng-controller="umbrellaController" >
+<!-- intro Div here  -->
+     <div ng-hide="!splashToggle"class="intro">
+
+          <img ng-hide="!splashToggle"class="redIntro" src="./images/redumbrellaintro.gif">
+          <p ng-hide="!splashToggle" class="introText"> Welcome to Red Umbrella Media <br>
+          <button ng-hide="!splashToggle" class="mainbutton"ng-hide="!splashToggle" ng-click="splashToggle=false;"   type="button">Enter Site</button></p>
+     </div>
+        <header>
+            <div class="headerLogo">
+               <img class="menulogo"src='../images/redumbrellalogo.png'>
+                <p class="logoText"> Red <br> &nbsp;Umbrella <br> &nbsp; &nbsp;Media</p>
+            </div>
+             <div>
+               <input class="hamburger"type="image" src="../images/menu.png"></input>
+            </div>
+        </header>
+
+<div style="    z-index:-3;top: -44px;
+    position: fixed;
+}">
+<img  data-0="width:100%;" data-300="width:0%;" class="roadImg "src="../images/roads.gif">
+<img  data-0="width:0%;" data-300="width:100%;" data-500="width:0%;" class="roadImg "src="../images/work.gif">
+<img data-0="width:0%;" data-300="width:0%;" data-500="width:100%;" class="roadImg colorme" src="../images/meeting.jpg">
+
+
+</div>
+   <script src="../javascript/umbrella.js"></script>
+    <script type="text/javascript" src="../javascript/scrollr.js"></script>
+    <script type="text/javascript">
+    var s = skrollr.init();
+    </script>
+  </body>
+
+
+</html>

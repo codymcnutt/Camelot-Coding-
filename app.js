@@ -56,6 +56,14 @@ app.post('/api/savedWishes', controller.createWish)
 app.get('/api/getWishes', controller.getWishes)
 
 
+// This is for the Solar Demo
+app.get('/solar', function(req, res){
+  res.sendFile("/html/solar.html", {root : './public'})
+});
+
+app.get('/umbrella', function(req, res){
+  res.sendFile("/html/umbrella.html", {root : './public'})
+});
 
 
 

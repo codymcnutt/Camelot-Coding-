@@ -1,0 +1,89 @@
+body{
+	background-color: black;
+    margin:0px;
+}
+.intro{
+	background-color: #FCFDFA;
+    top: -5%;
+    position: fixed;
+    height: 105%;
+    width: 100%;
+    left: 0;
+}
+.redIntro{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2%;
+}
+.introText{
+	color: red;
+	font-size: 32px;
+	font-family: courier;
+	text-align: center;
+	margin: auto;
+	background-color: #FCFDFA;
+	text-shadow:silver 6px 6px 4px;
+}
+header{
+	z-index: -1;
+	background-color: rgba (128,0,0, 0.7);
+    width: 100%;
+    top: -1vh;
+    position: fixed;
+        background: ghostwhite;
+       width: 102vw;
+    left: -5px;
+}
+
+.menulogo{
+	    width: 4%;
+}
+.mainbutton{
+    margin-top: 7px;
+    border-radius: 8px;
+    background-color: red;
+    font-family: courier;
+    border-color: none;
+    border: none;
+    font-size: 19px;
+    padding: 23px;
+    color: ghostwhite;
+    box-shadow:silver 6px 6px 9px;
+    cursor: pointer;
+}
+
+.headerLogo{ 
+    list-style: none;
+    padding-left: 9px;
+    padding-top: 11px;
+box-shadow: red 0px -50px 200px 6px;
+}
+.logoText {
+    color: red;
+    font-size: 15px;
+    font-family: courier;
+    text-shadow: silver 3px 2px 5px;
+    left: 75px;
+    position: absolute;
+    top: -5px;
+ }
+.roadImg{
+      width: 102%;
+    z-index: -4;
+    top:75px;
+    height:100vh;
+    position: relative;
+   overflow:hidden;
+float:left;
+}
+.hamburger{
+    position: absolute;
+    height: 52px;
+    text-align: center;
+    left: 47%;
+    top: 8px;
+}
+.colorme{
+      -webkit-filter: grayscale(90%);
+}

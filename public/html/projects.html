@@ -26,59 +26,66 @@
 		</header>
 
 		  <!-- MAIN PAGE GOES HERE -->
-		<div> 
-				<input type="image" ng-click="wishDemo = !wishDemo" class="projectImg"src="../images/winter.png"> </input>
-					<div>	
-						<button class= "closer" ng-show="wishDemo"ng-click="wishDemo = !wishDemo"> Close Demo</button>
-								<iframe  ng-if="wishDemo"
-									 src="/winterwishes"
-									 width="100%" height="100%"
-									 >
-									  <p>
-									    <a href="https://developer.mozilla.org/en-US/docs/Glossary">
-									      Your web browser does not support this feature
-									    </a>
-									  </p>
-								</iframe>
-
-						</div>
-					<p class="projectText winterText">Winter Wishes: SPA (Single Page Application) which allows real time wishes to be displayed globally.</p>
-		
-		</div>
-		
-		<div>
-		<img class="projectImg solar" src="../images/solar.png">
-			 <p class="projectText solarText">Solar System: A Three.JS application rendering the solar system (to scale) in 3D. We added Space Oddity for fun</p>
-			
-		</div>
-
-		<div>
-			<img class="projectImg umbrellaImg" src="../images/umbrella.png">
-			 <p class="projectText umbrellaText">Red Umbrella Media: A small marketing firm wanted to rebrand their site, so we helped them out by removing color</p>
-			
-		</div>
-		<div>
-			<input class="projectImg wizardImg" ng-click="wizardDemo = !wizardDemo" type="image" src="../images/textgame.png">
-</div>
-				<div >	
-				<button class="closer"ng-show="wizardDemo"ng-click="wizardDemo = !wizardDemo"> Close Demo</button>
-						<iframe 
-							 ng-if="wizardDemo"
-							 src="http://45.55.191.120:3000/"
-							 width="100%" height="100%"
-							 
-													 >
-							  <p>
-							    <a href="https://developer.mozilla.org/en-US/docs/Glossary">
-							      Your web browser does not support this feature
-							    </a>
-							  </p>
-						</iframe>
-
+				<div>
+					<input type="image" ng-click="wishDemo = !wishDemo" class="projectImg"src="../images/winter.png"> </input>
+							<button class= "closer" ng-show="wishDemo"ng-click="wishDemo = !wishDemo"> Close Demo</button>
+									<iframe  ng-if="wishDemo"
+										 src="/winterwishes"
+										 width="100%" height="100%"
+										 >
+										  <p>
+										    <a href="https://developer.mozilla.org/en-US/docs/Glossary">
+										      Your web browser does not support this feature
+										    </a>
+										  </p>
+									</iframe>
+						<p class="projectText winterText">Winter Wishes: SPA (Single Page Application) which allows real time wishes to be displayed globally.</p>
 				</div>
-			 <p class="projectText wizardText">This is a text based game called Lives of Wizards. It uses a parallax.js engine for the splash page and facebook authentication for the login</p>
-			
-	<p class="projectTextDemo"> These are some of our recent projects. <br> See live demos by clicking on the image <br> Demos make take a moment to load</p>
+				<div>
+					<input type="image" ng-click="solarDemo = !solarDemo" class="projectImg solar"src="../images/solar.png"> </input>
+							<button class="closer"ng-show="solarDemo"ng-click="solarDemo = !solarDemo"> Close Demo</button>		
+									<iframe  ng-if="solarDemo"
+										 src="/solar"
+										 width="100%" height="100%"
+										 >
+										  <p>
+										    <a href="https://developer.mozilla.org/en-US/docs/Glossary">
+										      Your web browser does not support this feature
+										    </a>
+										  </p>
+									</iframe>
+						<p class="projectText solarText">Solar System: A Three.JS application rendering the solar system (to scale) in 3D. We added Space Oddity for fun</p>
+				</div>
+				<div>
+					<input type="image" ng-click="umbrellaDemo = !umbrellaDemo" class="projectImg umbrellaImg"src="../images/umbrella.png"> </input>
+							<button class="closer"ng-show="umbrellaDemo"ng-click="umbrellaDemo = !umbrellaDemo"> Close Demo</button>		<iframe  ng-if="umbrellaDemo"
+										 src="/umbrella"
+										 width="100%" height="100%"
+										 >
+										  <p>
+										    <a href="https://developer.mozilla.org/en-US/docs/Glossary">
+										      Your web browser does not support this feature
+										    </a>
+										  </p>
+									</iframe>
+						 <p class="projectText umbrellaText">Red Umbrella Media: A small marketing firm wanted to rebrand their site, so we helped them out by removing color</p>
+				</div>
+				<div>
+					<input class="projectImg wizardImg" ng-click="wizardDemo = !wizardDemo" type="image" src="../images/textgame.png">
+							<button class="closer"ng-show="wizardDemo"ng-click="wizardDemo = !wizardDemo"> Close Demo</button>
+									<iframe 
+										 ng-if="wizardDemo"
+										 src="http://45.55.191.120:3000/"
+										 width="100%" height="100%">
+										  <p>
+										    <a href="https://developer.mozilla.org/en-US/docs/Glossary">
+										      Your web browser does not support this feature
+										    </a>
+										  </p>
+									</iframe>
+						 <p class="projectText wizardText">This is a text based game called Lives of Wizards. It uses a parallax.js engine for the splash page and facebook authentication for the login</p>
+				</div>
+			<p class="projectTextDemo"> These are some of our recent projects. <br> See live demos by clicking on the image <br> Demos make take a moment to load</p>
 
 <!-- FOOTER BEGINS HERE -->
 <footer class="footer">

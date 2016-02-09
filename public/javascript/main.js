@@ -5,7 +5,7 @@ angular.module('camelotApp')
 
 
 
-
+// THIS IS THE CODE FOR THE LIVES OF WIZARDS DEMO
 
   $scope.wizardDemo = false;
 
@@ -15,12 +15,14 @@ angular.module('camelotApp')
     $scope.wizardDemo = !$scope.wizardDemo;
 
   };
+  // THIS IS CODE FOR THE WISH DEMO
   $scope.wishDemo = false;
   $scope.wishDemoToggle = function() {
 
     $scope.wishDemo = !$scope.wishDemo;
 
   };
+ 
        // $scope.wishList =[]
            $scope.quantity = 1;
           var getWishes = function(){
@@ -44,7 +46,6 @@ angular.module('camelotApp')
             getWishes()
             console.log('Wish sucessfully submitted to database', returnData)
           $scope.savedWishes = returnData.data 
-          
 
         })
         }
@@ -92,7 +93,11 @@ angular.module('camelotApp')
     $scope.currentWish = !$scope.currentWish;
 
   };
-	}])
+$scope.solarDemo = false;
+  $scope.solarDemoToggle = function() {
 
+    $scope.solarDemo = !$scope.solarDemo;
 
+  };
 
+    }])

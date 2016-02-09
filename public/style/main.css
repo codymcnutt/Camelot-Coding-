@@ -198,7 +198,7 @@ header{
     width: 23%;
 }
 iframe{position: absolute; 
-        z-index: 20;
+        position: fixed;
         top: 50px;
         left: 0px;;
         z-index: 20;

@@ -7,17 +7,19 @@ position: absolute;
     left: 50vh;
     height: 80vh;
     top: 16px;
-    -webkit-animation-duration: 200s;
-    animation-duration: 200s;
+    -webkit-animation-duration: 100s;
+    animation-duration: 100s;
  }
 .castle{
  z-index:2;
  }
-a{    left: 700px;
+a{  
+  z-index:2;
+    left: 700px;
     font-family: fantasy;
    font-size: 3em;
    position: fixed;
-   left: 45%;
+   left: 47%;
    top:82%;
     color:white;
 
@@ -45,7 +47,7 @@ a{    left: 700px;
     }
     
  p{
-    z-index: 3;
+    z-index:5;
     position: absolute;
     left: 62vh;
     top: 20vh;

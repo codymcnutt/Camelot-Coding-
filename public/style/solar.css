@@ -1,0 +1,171 @@
+
+#text{
+    font-size: 40px;
+    font-family: star;
+    opacity: 1;
+    color: aliceblue;
+}
+
+#info-text{
+  font-family: monospace;
+  font-size: 20px;
+  color: white;    
+position: absolute;
+    margin-right: 2%;
+    top: 31%;
+    margin-left: 3%;
+}
+
+.menus{
+    z-index: 30;
+    position: absolute;
+    background: linear-gradient(90deg, #0E184A, #0F1A50,#162875, #203BAE,#203BAE, #162875,#0F1A50,#0E184A);
+    top: 80%;
+    height: 20%;
+    width: 100%;
+    border-image: linear-gradient(to left, #122A5A 20%, #3CFFD4 50%, #122A5A 100%) 100% 0 100% 0/.3em 0 0.0em 0 stretch;
+    opacity: .4;
+    box-shadow: inset 0 0 40px #0E1C4B, 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    color: aliceblue;
+    font-family: star;
+    font-size: 18px;
+
+}
+.menus:hover{
+    opacity:.95;
+}
+
+.css3{
+       position: fixed;
+    box-shadow: 0 1px 4px #3CFFD4;}
+
+.css3:after{
+    content: "";
+    position: fixed;
+    z-index: 2;
+    box-shadow: 0 22px 114px 16px #3CFFD4;
+    bottom: 0px;
+    left: 20%;
+    right: 0%;
+    width: 61%;
+    height: 0%;
+    top: 78%;
+
+
+}
+
+/*Code for coloring of top planet buttons*/
+.textbutton{
+  z-index: 30;
+     position:absolute;
+    background: linear-gradient(90deg, #B26B00, #CC7A00,#E68A00, #E68A00, #E68A00, #E68A00, #CC7A00, #B26B00);
+    top: 1%;
+    width: 10%;
+    border-radius: 5px 100px;
+    opacity: .7;
+         border: none;
+    margin: 20px;
+    border-radius: 0 100px;
+    color:aliceblue;
+    font-family: star;
+    text-align: center;
+    line-height: 1em;
+        outline: none;
+        font-size: 1.1em;
+        text-shadow: 2px 2px black;
+}
+
+.textbutton:hover{
+    opacity:1;
+     box-shadow: 0px 1px 40px -3px #E68A00;
+}
+
+.loading{
+    position:absolute;
+    top:0%;
+    width:100%;
+    height:100%;
+    z-index: 1;
+    background-color: white;
+
+}
+.ejc{
+     position: absolute;
+    top: 20%;
+}
+
+.svg{
+  width: 600px;
+  height: 120px;
+  display: block;
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  background: white;
+}
+.waitText{
+    position: relative;
+    left:35%;
+    top: 64%;
+    width:100%;
+   
+}
+
+/*This is where text types itself out for us*/
+
+p{
+  color: lime; 
+  font-family: "star";
+  color:darkblue;
+  text-shadow: 1px 1px black;
+  font-size: 18px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80%;
+  animation: type 4s steps(60, end); 
+}
+
+p:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+p a{
+  color: lime;
+  text-decoration: none;
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+
+/*this is there the opening page disapears */
+.openDiv{
+    animation-name:fadeOut;
+    animation-duration:2s;
+    animation-delay:8s;
+    animation-fill-mode: forwards ;
+}
+
+@font-face {
+    font-family: star;
+    src: url('/fonts/Starcrafts.ttf');
+  }
