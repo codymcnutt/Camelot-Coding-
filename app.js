@@ -2,7 +2,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-var controller = require('./controllers/controller.js');
+var controller = require('./Controllers/controller.js');
 mongoose.connect('mongodb://localhost/camelot');
 // mongoose.connect('mongodb://localhost/Christmas');
 
