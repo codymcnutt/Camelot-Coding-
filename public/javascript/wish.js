@@ -11,7 +11,6 @@ angular.module('winterApp')
     //         // window.location.href="/"
             
     //       }
-
         // $scope.wishList =[]
            $scope.quantity = 1;
           var getWishes = function(){
@@ -37,8 +36,6 @@ angular.module('winterApp')
             getWishes()
             console.log('Wish sucessfully submitted to database', returnData)
           $scope.savedWishes = returnData.data 
-          
-
         })
         }
 

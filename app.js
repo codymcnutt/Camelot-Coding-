@@ -45,6 +45,9 @@ app.get('/team', function(req, res){
 app.get('/terms', function(req, res){
   res.sendFile("/html/terms.html", {root : './public'})
 });
+app.get('/amazondeal', function(req, res){
+  res.sendFile("/html/amazondeal.html", {root : './public'})
+});
 
 
 // This is for the wishes demo
@@ -64,6 +67,15 @@ app.get('/solar', function(req, res){
 app.get('/umbrella', function(req, res){
   res.sendFile("/html/umbrella.html", {root : './public'})
 });
+
+// This is for the Dragonwax pages
+app.get('/Amazondeal', function(req, res){
+  res.sendFile("/html/Amazondeal.html", {root : './public'})
+});
+app.post('/api/createCustomer', controller.createCustomer)
+
+app.get('/api/getInput', controller.getInput)
+
 
 
 

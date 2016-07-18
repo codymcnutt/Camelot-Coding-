@@ -28,7 +28,38 @@ var createWish = function(req, res){
 }
 
 
+
+var getInput =function(req, res){
+ DB.Customer.find({}, function(err, docs){
+ 	if(!err) {
+ 		res.send(docs)
+ 	}
+ 	else {res.send("We are currently down please wait...")
+ 	}
+}
+ )}
+
+
+var createCustomer = function(req, res){
+	
+	var newCustomer = new DB.Customer({
+		email			: req.body.email,
+		name			: req.body.name,
+		phone			: req.body.phone, 
+
+	})
+
+	newCustomer.save( function(err, doc){
+		res.send(doc)
+	})
+
+}
+
 module.exports = {
 	createWish : createWish,
 	getWishes : getWishes,
+	createCustomer : createCustomer,
+	getInput : getInput,
+
 }
+		

@@ -1,0 +1,35 @@
+.logo {
+    height: 85px;
+    left: 1%;
+    position: relative;
+}
+.logoText{
+      font-family: fantasy, helvitica;
+    font-size: 30px;
+    top: -51px;
+    color: black;
+    position: relative;
+}
+
+.copy{    
+        box-shadow: black 8px -4px 56px -7px;
+    color: black;
+    background-color: silver;
+    padding: 1px;
+    text-align: center;
+    width: 102%;
+    font-family: fantasy;
+    font-size: 14px;
+        bottom: 0px;
+ 
+}
+footer{
+color: ghostwhite;
+    padding: 1px;
+    background: darkgray;
+    bottom: 0px;
+    position: fixed;
+    width: 102%;
+    margin-left: -2%;
+    font-family: fantasy;
+}

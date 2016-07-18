@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="camelotApp" style="overflow-x:hidden;">
+  <head>
+    <meta charset="utf-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+  <meta name="apple-mobile-web-app-capable" content="no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>DragonWax</title>
+
+    <link rel="stylesheet" href="../style/amzndeal.css">
+     <link rel="stylesheet" href="../style/animate.css">
+  </head>
+   <body ng-controller="camelotController">
+ <img class="amzlogo" src="../images/amzlogo1.png">
+ <div class="normallyText">Normally $18.87  -  Today just $1!</div>
+
+
+
+     
+<div class="box effect7">
+    <img class="candlejar"src="../images/candleimg.jpg">
+      <ul style="list-style-type:none; font-weight:bold;    text-align: center;" class="claim">
+      <li>Claim Your <span style=" text-decoration: underline;">DragonWax Candle</span> </li>
+      <li style=" color:dodgerblue"> <span style="color:crimson">For </span>$1  - Today Only!</li>
+      </ul>
+      <div class="textdiv">
+         <p> You will love this long lasting relaxing three wick soy candle. Customers give this candle 5 out of 5 stars! <span style="text-decoration: underline;"> As part of our Amazon launch, you'll get a DragonWax Soy candle for $1 AND help your mind relax with soothing smells of eucalyptus and spearmint.</span></p>
+    
+      <p> <span style="font-weight:bold;"> Why give them away for a dollar?</span> <span style="text-decoration: underline;"> Simple; we need reviews!</span> So if you'll leave a review, you'll receive a 14.5oz candle for just $1!</p> 
+      <p style="font-weight:bold;"> Click below to receive your DragonWax candle for $1!</p>
+
+  
+    </div>
+  
+  
+ 
+  <div class="bluebox">
+      <p class="textInBlue" style="color:white"> Click below to get your new Soy Candle <span style="text-decoration:line-through; ">$16.87</span> <span style="color:crimson">$1 Today Only!</span></p>
+       <button ng-click="customerToggle()" class="button" type="button">I Want One!</button>
+  </div>
+     <div class="quote"> <span style="font-weight:bold;">"Highly recomended! This long burning candle smells so good! Great after a long day, perfect for date night too."</span> Michelle, Boston, MA
+    </div>
+     <div style="height:0px;">
+                 <img class="logo fadeInDown animated" style="z-index:50;" src="../images/dragon.png">
+                 <p class="logo dragontext"> DragonWax</p>
+      </div>
+
+    
+
+
+
+
+ <script src="../javascript/amazon.js"></script>
+    <script type="text/javascript" src="../javascript/scrollr.js"></script>
+    <script type="text/javascript">
+    var s = skrollr.init();
+    </script>
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div ng-hide="customerInput" class="customerForm"> 
+          <form name="loginForm" action="https://www.amazon.com" method="get">
+             <input ng-model="newCustomer.name"type="text" name="fullname" placeholder="Name" required="required" title="enter a valid name"><br>
+            <input ng-model="newCustomer.email" type="email" name="" value="" placeholder="example@mail.com" required /> <br>
+              <input ng-model="newCustomer.phone" type="tel" name="phone" value="" placeholder="Phone" required="required" title="Enter valid phone number 333-333-3333" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+              <input type="submit" class="button" style="left:5%;" value="Apply Discount"
+           ng-click="createCustomer()">
+         </form>
+      </div>
+   </body>
+    </html>

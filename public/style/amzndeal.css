@@ -1,0 +1,187 @@
+
+.logoText{
+      font-family: fantasy, helvitica;
+    font-size: 30px;
+    top: -51px;
+    color: black;
+    position: relative;
+}
+
+.copy{    
+        box-shadow: black 8px -4px 56px -7px;
+    color: black;
+    background-color: silver;
+    padding: 1px;
+    text-align: center;
+    width: 102%;
+    font-family: fantasy;
+    font-size: 14px;
+        bottom: 0px;
+ 
+}
+footer{
+color: ghostwhite;
+    padding: 1px;
+    background: darkgray;
+    bottom: 0px;
+    position: fixed;
+    width: 102%;
+    margin-left: -2%;
+    font-family: fantasy;
+}
+
+.amzlogo{
+    left: 8%;
+    width: 250px;
+    position: relative;
+    z-index: -1;
+}
+
+.normallyText{position: relative;
+    left: 39%;
+    top: -42px;
+    display: inline;
+    font-size: x-large;
+    /* font-family: sans-serif; */
+    color: darkblue;
+    }
+
+.effect7
+{
+    position:relative;       
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before, .effect7:after
+{
+    content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+} 
+.effect7:after
+{
+    right:10px; 
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+       -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+         -o-transform:skew(8deg) rotate(3deg); 
+            transform:skew(8deg) rotate(3deg);
+}
+
+ .claim{
+    display: inline;
+    left: 220px;
+    position: relative;
+    top: -450px;
+    font-size: 38px;
+    font-family: sans-serif;
+    color: crimson;
+}
+
+ .candlejar{
+
+         width: 520px;
+    left: 1.5%;
+    /* top: 21%; */
+    position: inherit;
+    display: -webkit-inline-box;
+    /* top: 7%; */
+    z-index: -1;
+}
+
+.textdiv{
+   position: relative;
+    display: inline-block;
+    left: 46%;
+    top: -443px;
+    font-size: x-large;
+    width: 575px;
+}
+.bluebox{
+        left: -2%;
+      width: 104%;
+    height: 164px;
+    position: absolute;
+    background-color: dodgerblue;
+    top: 48%;
+    z-index: 2;
+}
+
+.textInBlue{color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    }
+.button{        background-color: crimson;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    left: 45%;
+    height: 55px;
+    width: 200px;
+    position: relative;
+}
+ .quote{       text-align: center;
+    top: -180px;
+    /* overflow: auto; */
+    width: 300px;
+    left: 40%;
+    font-size: 25px;
+    position: inherit;
+}
+.logo {
+          height: 239px;
+    left: 71%;
+    position: relative;
+    top: -414px;
+}
+.dragontext{    font-size: 50px;
+    font-family: fantasy;
+    position: relative;
+    top: -502px;
+    left: 1022px;
+}
+.customerForm{
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    background-color: ghostwhite;
+    padding: 72px;
+    margin: 10px;
+    z-index: 20;
+    font-size: 40px;
+    border: solid;
+    box-shadow: grey 3px 3px 16px;
+}
+input{
+       font-size: large;
+    font-family: fantasy;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px;
+    padding-top: 10px;
+    margin: 16px;
+    padding-left: 25px;
+}
+
+input:focus:invalid,
+textarea:focus:invalid{
+    border:solid 2px #F5192F;
+}
+
+input:focus:valid,
+textarea:focus:valid{
+    border:solid 2px #18E109;
+    background-color:#fff;
+}
