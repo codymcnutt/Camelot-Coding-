@@ -1,6 +1,6 @@
 angular.module('camelotApp', [])
 
-angular.module('camelotApp')
+angular.module('camelotApp', [])
 	.controller('camelotController', ['$scope', '$http', function($scope, $http){
 
 
@@ -34,4 +34,5 @@ angular.module('camelotApp')
           $scope.savedCustomers = returnData.data 
         })
         };
-}])
+
+

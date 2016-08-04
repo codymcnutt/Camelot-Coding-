@@ -1,0 +1,29 @@
+.normallyText {
+    position: relative;
+    left: 8%;
+    top: -42px;
+    display: inline;
+    font-size: x-large;
+    font-family: arial;
+    color: black;
+}
+.normallyText2 {
+    position: inherit;
+    display: -webkit-inline-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    left: 30%;
+}
+.carousel{
+    height: 425px;
+    margin-bottom: 40px;
+    background-color: black;
+}
+.logoCorner{
+     height: 63px;
+    margin-left: 18px;
+    margin-top: 5px;
+    position: absolute;
+}

@@ -32,14 +32,14 @@ color: ghostwhite;
 
 .amzlogo{
     left: 8%;
-    width: 250px;
+    width: 150px;
     position: relative;
     z-index: -1;
 }
 
 .normallyText{position: relative;
     left: 39%;
-    top: -42px;
+    top: -20px;
     display: inline;
     font-size: x-large;
     /* font-family: sans-serif; */
